@@ -1,0 +1,436 @@
+* {
+    margin: 0;
+}
+body {
+    font-family: verdana;
+}
+.header {
+    background-color: rgba(255, 144, 14, 0.1);
+    width: 100%;
+    height: 1000px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+}
+nav h3 {
+    font-weight: 400;
+    font-size: 30px;
+    font-weight: 700;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li {
+    padding-right: 50px;
+}
+
+/*------------------------------------ 
+--------banner part starts here-------
+--------------------------------------*/
+
+.banner {
+    padding: 0px 150px;
+}
+.banner-content {
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.banner-content h1 {
+    font-weight: 700;
+    font-size: 64px;
+}
+.banner-content p {
+    color: #727272;
+    padding: 16px;
+}
+.banner-button {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 12px 20px;
+    background: #ff8c00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.banner-button:hover {
+    color: #000000;
+    border: 1px solid #000000;
+    background: none;
+    box-shadow: 0.3px 0.3px 16px -7px #000000;
+    transition: 0.4s;
+}
+.banner img {
+    width: 1050px;
+    height: auto;
+    padding-top: 30px;
+    justify-content: center;
+}
+
+main {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+/*---------------------------------------- 
+--------quick list part starts here-------
+------------------------------------------*/
+
+.span1{
+    color: #727272;
+}
+.span2{
+    color:#ff8c00;
+}
+.quick-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 50px;
+}
+.quick-list-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.quick-list-image img {
+    width: auto;
+    height: 230px;
+}
+.quick-list-content h3 {
+    font-weight: 500;
+    font-size: 45px;
+}
+.quick-list-content p {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px 0px;
+}
+.quick-button {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 23px;
+    background: #ff8c00;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.quick-button:hover {
+    color: #000000;
+    border: 1px solid #000000;
+    background: none;
+    box-shadow: 0.3px 0.3px 16px -7px #000000;
+    transition: 0.4s;
+}
+
+/*---------------------------------------- 
+--------feature part starts here----------
+------------------------------------------*/
+.feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 50px 0px;
+}
+.feature-image img {
+    width: auto;
+    height: 700px;
+}
+.feature-content h2 {
+    border-left: 5px solid #ff8c00;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 0 20px;
+}
+.feature-content p {
+    color: #727272;
+    font-size: 16px;
+    padding: 20px 0px;
+}
+.feature-terms-box p {
+    color: #727272;
+    font-size: 15px;
+    padding: 10px 0px;
+}
+.feature-content h3 {
+    font-weight: 600;
+    font-size: 20px;
+}
+.feature-terms-box {
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0.4px 0.4px 16px -8px #727272;
+    padding: 20px 20px;
+    margin-bottom: 10px;
+}
+.middle-box {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    position: relative;
+    top: -150px;
+    left: 480px;
+    width: 180px;
+    height: 80px;
+    background: #ff8c00;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    color: #ffffff; 
+}
+
+
+/*---------------------------------------- 
+--------some facts part starts here-------
+------------------------------------------*/
+
+.fact-content h3 {
+    font-size: 40px;
+    font-weight: 700;  
+}
+.fact-content p {
+    font-size: 14px;
+    color: #727272;
+    padding: 10px 0px;
+}
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0px;
+}
+.box {
+    border: 1px solid #ff8c00;
+    border-radius: 7px;
+    background: #ffffff;
+    text-align: center;
+    padding: 20px;
+    height: 120px;
+    width: 120px;
+}
+.box:hover{
+    box-shadow: 0.3px 0.3px 16px -7px #000000;
+}
+.box img{
+    width: 30px;
+}
+.box h2 {
+    font-weight: 600;
+    font-size: 35px;
+    color: #424242;
+    padding: 5px 0px;
+}
+.fact-box p{
+    font-size: 15px;
+    color: #727272;
+}
+
+/*---------------------------------------- 
+--------sponsor part starts here----------
+------------------------------------------*/
+.showcase-header h2{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding: 50px 0;
+}
+.row img{
+    height: 100%;
+    width: 100%;
+    box-shadow: 0.3px 0.3px 16px -7px #000000;
+}
+.row{
+    margin-bottom: 10px;
+}
+.second-row, .third-row{
+    display: flex;
+    gap: 10px;
+}
+.second-row > div{
+    flex: 1;
+}
+.second-row-third-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.second-row-third-container div{
+    height: calc(50% - 5px/2);
+}
+.third-row-second-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.third-row > div{
+    flex: 1;
+}
+
+
+/*---------------------------------------- 
+--------sponsor part starts here----------
+------------------------------------------*/
+.sponsor{
+    padding: 50px 0;
+}
+.sponsor-content{
+    text-align: center;
+}
+.sponsor-content h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+.sponsor-content p{
+    font-size: 15px;
+    color: #727272;
+    padding: 20px;
+}
+.logos{
+    display: flex;
+}
+.sponsor img{
+    width: 100px;
+    padding: 50px;
+}
+
+
+/*---------------------------------------- 
+--------footer part starts here----------
+------------------------------------------*/
+.footer{
+    padding-bottom: 50px;
+}
+footer{
+    background-color: rgba(255, 144, 14, 0.1);
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+}
+footer h5{
+    color: #727272;
+    padding-top: 40px;
+    text-align: center;   
+}
+
+
+/*---------------------------------------------- 
+--------All responsive tag starts here----------
+------------------------------------------------*/
+
+
+@media only screen and (max-width:576px) {
+    body {
+        width: 100%;
+    }
+    .header {
+        height: 650px;
+    }
+    nav ul{
+        display: none;
+    }
+    nav{
+        justify-content: left;
+        padding: 50px 20px;
+    }
+    .banner {
+        padding: 0px 0px;
+        width: 100%;
+    }
+    .banner-content {
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .banner-content h1 {
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+    }
+    .banner img {
+        width: 90vw;
+        padding: 20px;
+    }
+    main{
+        margin: 20px;
+    }
+    .quick-list {
+        flex-direction: column-reverse;
+        padding: 0px;
+    }
+    .quick-list-image img {
+        width: 90vw;
+        height: auto;
+    }
+    .quick-list-image {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        padding-left: 0;
+    } 
+    .feature {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        padding: 50px 0px;
+    }
+    .feature-terms-box {
+        width: 90%;
+    }
+    .feature-image img {
+        height: 500px;
+        width: 87vw;
+        padding-left: 50px;     
+    }
+    .middle-box {
+        top: -120px;
+        left: 0px;
+        font-size: 20px;
+        width: 150px;
+        height: 60px;
+    }
+    .boxes {
+        flex-direction: column;
+        padding: 50px 0px;
+        padding-left: 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .box {
+        padding: 50px;
+        height: 180px;
+        width: 180px;
+    }
+    .box img{
+        width: 50px;
+    }
+    .second-row, .third-row{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .third-row-second-container{
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+    }
+    .logos{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
